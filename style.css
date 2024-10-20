@@ -29,6 +29,9 @@
     border-radius: 8px;
     border: none;
 }
+.btn-primary:hover{
+    background: #727272;
+}
 /* header section */
 
 .navbar {
@@ -65,4 +68,16 @@
 }
 .banner-image{
     width: 100%;
+}
+
+
+
+/* **********************************************************************Responsive media Quary
+****************************************************************** */
+/* small device */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
 }
