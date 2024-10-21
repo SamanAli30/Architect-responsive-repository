@@ -6,8 +6,8 @@
   font-weight: 400;
   font-style: normal;
 }
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 /* shared styles */
 .display-flex {
@@ -19,29 +19,28 @@
 .dark3 {
   color: #727272;
 }
-.regular{
-    color: #FF900E;
+.regular {
+  color: #ff900e;
 }
 .bg-light {
   background: rgba(255, 144, 14, 0.1);
 }
-.btn-primary{
-    background-color: #FF900E;
-    color:#fff ;
-    padding:20px 25px ;
-    font-weight: 700;
-    font-size: 1.25rem;
-    border-radius: 8px;
-    border: none;
-    margin-top: 50px;
+.btn-primary {
+  background-color: #ff900e;
+  color: #fff;
+  padding: 20px 25px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+  margin-top: 50px;
 }
-.btn-primary:hover{
-    background: #727272;
+.btn-primary:hover {
+  background: #727272;
 }
-main{
-    max-width: 1440px;
-    margin: 0 auto;
-  
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* header section */
@@ -69,135 +68,193 @@ main{
   font-size: 1.2rem;
 }
 /* banner related styles */
-.banner-content{
-    max-width: 862px;
-    margin:0 auto ;
-    text-align: center;
-    margin-bottom: 50px;
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
 }
-.banner-title{
-    font-size: 4rem;
+.banner-title {
+  font-size: 4rem;
 }
-.banner-image{
-    width: 100%;
+.banner-image {
+  width: 100%;
 }
-  /* teams section design */
-  .teams{
-    align-items: center;
-    margin: 110px auto;
-  }
-.teams-images-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    
+/* teams section design */
+.teams {
+  align-items: center;
+  margin: 110px auto;
 }
-.teams-content{
-    margin-left: 120px;
-    max-width:468px ;
-    
-    
+.teams-images-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
-.teams-title{
-    font-size: 2.8rem;
-    font-weight: 700;
+.teams-content {
+  margin-left: 120px;
+  max-width: 468px;
 }
-#quick{
-    font-weight: 500;
+.teams-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+#quick {
+  font-weight: 500;
 }
 /* feature you will section */
-.feature{
-    justify-content: space-between;
-    align-items: center;
-    gap: 130px;
+.feature {
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
 }
-.enjoy-title{
-    border-left: 6px solid #FF900E;
-    padding-left: 1.25rem;
-    margin-bottom: 20px;
+.enjoy-title {
+  border-left: 6px solid #ff900e;
+  padding-left: 1.25rem;
+  margin-bottom: 20px;
 }
-.card{
-    margin-top: 20px;
-    max-width: 590px;
-    padding: 2rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    box-shadow: 2px 2px 20px rgb(237, 233, 233);
+.card {
+  margin-top: 20px;
+  max-width: 590px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 20px rgb(237, 233, 233);
+}
+.card-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.badge {
+  color: #fff;
+  border-radius: 8px;
+  padding: 45px 40px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -120px;
+}
+#years {
+  font-size: 4rem;
+  font-weight: 700;
+}
 
+/* facts section design */
+.facts-card-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.facts-title {
+  font-weight: 700;
+  font-size: 3rem;
+}
 
+.facts-card-container > .card {
+  box-shadow: none;
+  border: 1px solid #ff900e;
+}
 
-    
+.facts-card-container > .card > h4 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #424242;
 }
-.card-title{
-    margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 1.25rem;
+/* sponsorse section design */
+.sponsorse-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+  text-align: center;
 }
-.badge{
-    color: #fff;
-    border-radius: 8px;
-    padding: 45px 40px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-left: -100px;
-    margin-top: -120px;
+.sd {
+  text-align: center;
+  margin: 20px;
 }
-#years{
-    font-size: 4rem;
-    font-weight: 700;
+.sponsorse-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
 }
+.sponsors {
+  margin-top: 100px;
+}
+/* footer section */
+.footer {
+  background: #fff4e7;
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
 /* **********************************************************************Responsive media Quary
 ****************************************************************** */
 /* small device */
-@media screen and (max-width:576px) {
-    .navbar, 
-    .teams{
-        flex-direction: column;
-    }
-    .nav-links{
-        margin: 0;
-        padding: 10px;
-        
+@media screen and (max-width: 576px) {
+  .navbar,
+  .teams {
+    flex-direction: column;
+  }
+  .nav-links {
+    margin: 0;
+    padding: 10px;
+  }
+  .teams-images-container > img {
+    width: 100%;
+  }
+  .teams-images-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teams-content {
+    margin-left: 20px;
+  }
 
-    }
-    .teams-images-container >img{
-        width: 100%;
-    }
-    .teams-images-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .teams-content{
-        margin-left: 20px;
-    }
+  /* feature responsive */
+  .feature {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .side-image {
+    width: 100%;
+  }
 
-    /* feature responsive */
-    .feature{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .side-image{
-        width: 100%;
-    }
-   
-    
-  .card{
-
+  .card {
     padding: 10px;
     margin: 10px 5px;
   }
- .features-desc{
+  .features-desc {
     width: 100%;
-
- }
- .badge{
+  }
+  .badge {
     color: #fff;
     border-radius: 8px;
     padding: 20px 10px;
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: 0;
-    margin-top:-100px;
-
+    margin-top: -100px;
+  }
+  .facts-content {
+    margin: 20px;
+  }
+  .facts-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sponsorse-container {
+    flex-direction: column;
+    gap: 50px;
+    margin: 60px;
+  }
+  .sponsorse-content {
+    margin: 20px;
+  }
+  .footer-text{
+    font-size: .70rem;
 }
-
 }
